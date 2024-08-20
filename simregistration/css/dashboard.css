@@ -1,0 +1,96 @@
+/* Bootstrap Override Styles */
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(17, 9, 9, 0.8), rgba(231, 230, 229, 0.8));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.dashboard {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(233, 187, 187, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: #333333;
+}
+.btn-custom {
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-secondary:hover {
+    background-color: #565e64;
+    border-color: #343a40;
+}
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    display: inline-flex;
+    margin-top: 50px;
+}
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.input-group {
+    margin-bottom: 20px;
+    
+    margin-top: 70px;
+}
+.form-control {
+    max-width: 276px;
+    margin-top: 50px;
+}
+.text-center{
+ color: #080808;
+}
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.main-footer{
+    color: #ff0000;
+    text-decoration: none;
+}
+.main-footer a:hover {
+    text-decoration: underline;
+}
+.float-right {
+    float: right;
+}
+.d-none {
+    display: none;
+}
+.d-sm-inline-block {
+    display: inline-block;
+}
+
