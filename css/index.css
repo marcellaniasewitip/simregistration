@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+body, h1, h3, ul, li, p, form, header, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+} 
+header .logo {
+    width: 70px;
+    display: flex;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+header h1 {
+    margin-top: -55px;
+}
+ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #0b3cdb;
+    border-radius: 5px;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+.welcome-text {
+    text-align: center;
+    margin: 20px 0;
+    display: inline-block;
+    position: relative;
+    left: -5px;
+}
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.main-footer a {
+    color: #ff0000;
+    text-decoration: none;
+}
+.main-footer a:hover {
+    text-decoration: underline;
+}
+.float-right {
+    float: right;
+}
+.d-none {
+    display: none;
+}
+.d-sm-inline-block {
+    display: inline-block;
+}
